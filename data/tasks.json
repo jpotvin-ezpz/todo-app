@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    {
+      "name": "My first task",
+      "active": true,
+      "id": 1
+    }
+  ]
+}
