@@ -1,0 +1,26 @@
+.task {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  .material-icons {
+    cursor: pointer;
+    color: #bdbdbd;
+  }
+}
+
+.check-name--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.todo-checkbox {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.task-name {
+  font-size: 1.8rem;
+  &.complete {
+    text-decoration: line-through;
+  }
+}

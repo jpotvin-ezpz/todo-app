@@ -1,0 +1,35 @@
+.category-controller {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: thin solid #bdbdbd;
+}
+
+.btn-ctg {
+  font-weight: 600;
+  background: transparent;
+  color: #333;
+  border: none;
+  width: 10rem;
+  height: 4rem;
+  cursor: pointer;
+  &:hover {
+    background: #c6c6c6;
+    border-radius: 4px;
+    border: 2px solid #c6c6c6;
+  }
+  &:active {
+    border: thin inset #c6c6c6;
+  }
+  &.active {
+    border-bottom: thick solid #2f80ed;
+  }
+}
+
+#category-all {
+  margin-left: 4rem;
+}
+#category-complete {
+  margin-right: 4rem;
+}

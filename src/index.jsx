@@ -5,6 +5,7 @@ function Index() {
   return (
     <div>
       <App />
+      <footer>created by Jacob Potvin -- devChallenges.io</footer>
     </div>
   )
 }

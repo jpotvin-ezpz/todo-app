@@ -1,11 +1,17 @@
 import React from 'react';
 
-const DeleteAll = () => {
+const DeleteAll = ({handleDeleteAll}) => {
   return (
     <button 
-      type='button'
-      value='Delete All'
-    />
+      onClick={handleDeleteAll}
+      type='button' 
+      className='delete-all--btn'
+    >
+      <span className="material-icons">
+        delete_outline
+      </span>
+      delete all
+    </button>
 );
 }
  
